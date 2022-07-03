@@ -51,7 +51,7 @@
     background-color: rgba(1,1,1,0.1);
 }
 .pTextPrincipal {
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Permanent+Marker&display=swap";
 }
 
@@ -65,7 +65,7 @@
     border-radius: 10px;
 }
 .CardTitleIndex{
-    font-size: 20px;
+    font-size: 15px;
     color:rgba(0, 53, 122, 0.811);
 }
 
@@ -130,10 +130,19 @@
 
 @media (min-width:768px) {
     .pTextPrincipal {
-        font-size: 40px;
+        font-size: 35px;
     }
     .CardTitleIndex{
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+}
+@media (min-width:992px) {
+    .pTextPrincipal {
+        font-size: 55px;
+    }
+    .CardTitleIndex{
+        font-size: 55px;
     }
 
 }
