@@ -3,10 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .fondo {
     background-image: linear-gradient(156.8deg,  rgba(30,144,231,0.500) 27.1%, rgba(67,101,225,0.500) 77.8%);
@@ -22,35 +23,71 @@
     font-size: 15px;
 }
 .header {
-    background-image: radial-gradient(circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 30%, rgb(88,0,191,0.500) 70.2%); ;
-    color: white;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 10%, rgba(0, 53, 122, 0.511) 90%) ;
+    color: rgba(0, 53, 122);
     border-radius: 10px;
 }
 .titulo {
     font-size: 60px;
+}  
+.card {
+    background-color: rgba(0,53,122) ;
+    color: white;
+} 
+
+.btn {
+    color: white;
+    font-weight: bold;
 }
-.card{
-    background-color: rgba(0, 53, 122, 0.811);
-    color:white;
+
+
+/*configuraciones generales*/
+
+.tarjetaIndex{
+    position: relative;
 }
-.CardTitlePricipal{
-    font-size: 50px;
+.bodyIndex {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(1,1,1,0.1);
 }
 .pTextPrincipal {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Permanent+Marker&display=swap";
 }
 .fondoCard {
     border-radius: 10px;
 }
+.imgMetodoX {
+    border-radius: 10px;
+}
 .CardTitleIndex{
-    font-size: 30px;
+    font-size: 20px;
     color:rgba(0, 53, 122, 0.811);
 }
-.pText {
-    color: white;
-    font-size: 20px;
+
+.carousel {
+        border-radius: 15px;
 }
+
+.carousel-inner img {
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute; 
+    top: 30%;
+    z-index: 1;
+    font-weight: bold; 
+}
+
+/*hasta aca index*/
+
 .tituloMetodox {
     color:rgba(0, 53, 122, 0.811);
     font-weight: bolder ;
@@ -60,6 +97,9 @@
     border: 1px solid white;
     padding: 15px;
 }
+
+/* hasta aca metodoX*/
+
 .cardNosotros {
     border-bottom: 10px ridge rgba(0, 53, 122, 0.911);
     border-radius: 10px;
@@ -67,13 +107,30 @@
 .fotoNosotros {
     border-radius: 200px;
 }
+
+/* hasta aca nosotros*/
+
 .fondoFooter{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 30%, rgb(88,0,191,0.500) 70.2%);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 30%, rgba(0, 53, 122, 0.511) 70.2%);
     border-radius: 10px;
     color: white;
 }
-.btn {
-    color: white;
-    font-weight: bold;
-}
 
+.imgSobre{
+    width: 30px;
+}
+.pieCopyrigth {
+    background: rgba(1,1,1,0.3);
+}
+/*Hasta aca footer*/
+
+
+@media (min-width:768px) {
+    .pTextPrincipal {
+        font-size: 40px;
+    }
+    .CardTitleIndex{
+        font-size: 40px;
+    }
+
+}
