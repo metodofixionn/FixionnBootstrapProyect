@@ -48,12 +48,15 @@
 }
 .bodyIndex {
     position: absolute;
-    top: 40%;
     background-color: rgba(1,1,1,0.1);
 }
 .pTextPrincipal {
     font-size: 20px;
     font-family: "Permanent+Marker&display=swap";
+}
+
+.imgEstrategias {
+    border-radius:10px ;
 }
 .fondoCard {
     border-radius: 10px;
@@ -81,7 +84,7 @@
 
 .carousel-caption {
     position: absolute; 
-    top: 30%;
+    top: 5%;
     z-index: 1;
     font-weight: bold; 
 }
@@ -90,7 +93,7 @@
 
 .tituloMetodox {
     color:rgba(0, 53, 122, 0.811);
-    font-weight: bolder ;
+    font-weight: bolder;
 }
 .cardMetodoX {
     border-radius: 10px;
